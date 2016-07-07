@@ -79,7 +79,7 @@ class PageSection:
 				<div class="site_header">
 					<div class="site_menu">
 						<div class="site_menu_link">About</div>
-						<div class="site_menu_link">Contact</div>
+						<div class="site_menu_link">Contact Me</div>
 						<div class="site_menu_link">%s</div>
 					</div>
 					<div class="banner">
