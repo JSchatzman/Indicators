@@ -1,0 +1,5 @@
+# gitignore files for indicators project
+
+venv
+static/temp
+log

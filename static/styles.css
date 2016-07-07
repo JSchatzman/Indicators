@@ -1,0 +1,287 @@
+/******************** General Styles ********************/
+body {
+	font-family: Montserrat, sans-serif;
+}
+.page {
+	position: relative;
+}
+
+/******************** Header Styles  ********************/
+.header_image {
+	width: 550px;
+	height: auto;
+}
+
+.site_header {
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+.site_menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: #282828;
+	width: 100%;
+}
+
+.site_menu_link {
+	padding: 5px 10px;
+	margin: 10px;
+	color:  #fff;
+	font-size: 22px;
+	font-family: Montserrat;
+    cursor: pointer; 
+}
+
+.site_menu_link:hover {
+	color: #af91bf;
+}
+
+.banner {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding: 10px;
+	font-size: 30px;
+	background: #9859ba; /* Old browsers */
+	background: -moz-linear-gradient(left,  #9859ba 0%, #af91bf 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #9859ba 0%,#af91bf 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #9859ba 0%,#af91bf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	color: #fff;
+}
+
+.header_panel {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items:center;
+	padding: 10px;
+	background-color: #cccccc;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.filter_panel {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 1200px;
+	align-items:center
+}
+
+.header_panel_button {
+	padding: 11px 12px;
+	font-size: 18px;
+	background-color: #3a3a3a;
+	color: #fff;
+	border-radius: 3px;
+	cursor: pointer;
+
+}
+
+.header_panel_button:hover {
+	background-color: #a36cc1;
+}
+
+.header_left {
+	padding: 20px;
+	font-size: 40px;
+	color: #fff;
+}
+
+.hlp_1 {
+	font-size:30px;
+}
+
+.hlp_2 {
+	font-size:20px;
+}
+
+.visual_object_panel {
+	display: flex;
+   	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: flex-center;  /* clump the items together horizontally in the center of the flexbox 8 */
+	align-items: flex-start;  /* align items vertically with their tops at the same height */
+	border:3px solid #9CA29B;
+	margin:5px;
+	padding:10px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.contact_box {
+	display: none;
+	position: absolute;
+	font-size:20px;
+	width: 400px;
+	background-color: #eaeaea;
+	border: 5px solid black;
+	padding: 10px 10px 10px 10px;
+
+}
+
+#contact_box_close {
+	color: blue;
+	padding: 5px;
+	background-color: #9ca29b;
+	cursor: pointer;
+	border-radius: 4px;
+	width: 20%;
+
+}
+
+
+/******************** Table Styles *******************/
+caption {
+	background-color: #6bbaa7;
+	color: #fff;
+	font-size: 22px;
+	font-family: Montserrat;
+	padding: 10px 50px;
+}
+
+.ind_table {
+   	table-layout:fixed;
+	border: 1px solid #bababa;
+	margin: 20px;
+}
+	
+.ind_table th {
+	background-color: #9CA29B;
+	padding: 4px 10px;
+	color:#ffffff;
+	height:30px;
+}
+	
+.ind_table tr {
+	height:30px;
+}
+	
+.ind_table tr:nth-child(even) {
+	background: #fff; color: #000;
+}
+	
+.ind_table tr:nth-child(odd) {
+    background: #f0f0f0; color: #000;
+}
+
+.ind_table tr td:nth-child(2),
+.ind_table tr td:nth-child(3),
+.ind_table tr td:nth-child(4) {
+	text-align: right;
+}
+
+.ind_table td {
+    color: #6c6665;
+	padding: 4px 6px;
+}
+
+/******************** Text Block Styles ********************/
+.section_heading {
+	margin: 10px 0;
+	padding: 14px;
+	width: 100%;
+	background: #5e5e5e;
+	color: #fff;
+	font-size: 24px;
+}
+
+/******************** List Styles ********************/
+.item_list_head {
+	display: flex;
+   	flex-direction: row; /* items laid out horizontally */
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;  /* center items on vertical axis */
+	margin: 5px;
+	padding: 5px;
+}
+
+.item_list_label {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 20px;
+	font-style: bold;
+	margin-right: 12px;
+}
+
+.item_list_centered {
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	position: absolute;
+	display: none;
+}
+
+.item_list {
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	position: absolute;
+	display: none;
+}
+
+.selected_item {
+	padding: 8px 12px;
+	min-width: 90px;
+	background-color: #3a3a3a;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.text_align_center {
+	text-align: center;
+}
+
+.item {
+	width: 100%;
+	min-width: 90px;
+	font-size: 18px;
+	padding: 8px 12px;
+	background-color: #3a3a3a;
+	color: #fff;
+	cursor: pointer;
+}
+
+.item:hover,
+.selected_item:hover {
+	background-color: #a36cc1;
+}
+
+/******************** Input Box Styles ********************/
+.input_box_container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 20px;
+	font-style: bold;
+	margin-right: 12px;
+}
+
+.input_box_label {
+	font-size: 20px;
+	font-style: bold;
+	margin-right: 10px;
+}
+.input_box {
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: bold;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #eaeaea;
+	border-radius: 3px;
+}
+.input_year {
+	width: 100px;
+	text-align: center;
+}
