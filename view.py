@@ -232,11 +232,13 @@ class Chart:
 		legendsize = 15
 		country_list = list(set(index_test.df['CountryName']))
 		column_list = [col for col in index_test.df.columns if col not in ['Year', 'CountryName']]
-		fix, ax = plt.subplots(1,1,figsize=(10,10))
-		ax2 = ax.twinx()
+#		fix, ax = plt.subplots(1,1,figsize=(10,10))
+#		ax2 = ax.twinx()
 		count = 0
 		html = []
 		for i in country_list:
+            fix, ax = plt.subplots(1,1,figsize=(10,10))
+            ax2 = ax.twinx()
 			ax.set_title(i + '\n', fontsize = titlesize, fontweight = 'bold')
 			ax.plot(index_test.df[index_test.df['CountryName'] == i]['Year'], 
             	    index_test.df[index_test.df['CountryName'] == i]['Index'],
