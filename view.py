@@ -236,7 +236,7 @@ class Chart:
 		ax2 = ax.twinx()
 		count = 0
 		html = []
-		for i in country_list:
+		for i in ['Mexico']:
 			ax.set_title(i + '\n', fontsize = titlesize, fontweight = 'bold')
 			ax.plot(index_test.df[index_test.df['CountryName'] == i]['Year'], 
             	    index_test.df[index_test.df['CountryName'] == i]['Index'],
