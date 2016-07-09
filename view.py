@@ -237,7 +237,7 @@ class Chart:
 		count = 0
 		html = []
 		for i in country_list:
-            fix, ax = plt.subplots(1,1,figsize=(10,10))
+            fig, ax = plt.subplots(1,1,figsize=(10,10))
             ax2 = ax.twinx()
 			ax.set_title(i + '\n', fontsize = titlesize, fontweight = 'bold')
 			ax.plot(index_test.df[index_test.df['CountryName'] == i]['Year'], 
