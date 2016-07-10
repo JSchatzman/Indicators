@@ -268,7 +268,7 @@ class Chart:
 			#The URL http://lockers.cloudapp.net points to /var/www/flasky/flasky so all references to relative file paths automatically have that path appended.
 			#Therefore, the relative path static/temp actually points to the absolute path /var/www/flasky/flasky/static/temp
 			html.append('<div class="ind_chart"><img src="http://lockers.cloudapp.net/static/temp/' + plotPng + '"></div>')
-		#blah22 blah
+		#blah22 blah111
 		return html[1]
   
 
