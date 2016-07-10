@@ -41,7 +41,7 @@ def ivi_request(parameters):
 	params = {'page_name':'index_vs_indicator', 'ind_code': param_list[0], 'start_year': int(param_list[1]), 'end_year': int(param_list[2])}
 	page = Page()
 	chart = Chart('Index vs Indicator', 'x label', 'y label', ['123', '456'])
-	html = chart.index_vs_indicator('EG.USE.PCAP.KG.OE', 'North America', 2000, 2010)
+	html = chart.index_vs_indicator('EG.USE.PCAP.KG.OE', 'Europe', 2000, 2010)
 	output = page.region(params)
 	for i in html:
 		output = output + i
