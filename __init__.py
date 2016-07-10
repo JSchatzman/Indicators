@@ -42,7 +42,10 @@ def ivi_request(parameters):
 	page = Page()
 	chart = Chart('Index vs Indicator', 'x label', 'y label', ['123', '456'])
 	html = chart.index_vs_indicator('EG.USE.PCAP.KG.OE', 'North America', 2000, 2010)
-	return page.region(params) + html[0] + html[1] + html[2]
+	output = page.region(params)
+	for i in html:
+		output = output + i
+	return output
 
 
 app.debug = True
