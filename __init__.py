@@ -38,13 +38,14 @@ def ivi_request(parameters):
 		param_list[1] = 2001
 	if 1960 <= param_list[2] <= 2015:
 		param_list[2] = 2010
-	params = {'page_name':'index_vs_indicator', 'ind_code': param_list[0], 'start_year': int(param_list[1]), 'end_year': int(param_list[2])}
 	page = Page()
 	chart = Chart('Index vs Indicator', 'x label', 'y label', ['123', '456'])
 	html = chart.index_vs_indicator('EG.USE.PCAP.KG.OE', 'North America', 2000, 2010)
-	output = page.region(params)
-	for i in html:
-		output = output + i
+	params = {'page_name':'index_vs_indicator', 'ind_code': param_list[0], 'start_year': int(param_list[1]), 'end_year': int(param_list[2]), 'img_array': html}
+	vop = VisualObjectPanel('indicator_vs_index_panel')
+	output = page.region(params) + vop.html
+#	for i in html:
+#		output = output + i
 	return output
 
 
