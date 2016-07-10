@@ -155,7 +155,7 @@ class  VisualObjectPanel:
 				self.items.append(chart.plot_values_over_years(self.params))
 		
 		elif panel_type == 'indicator_vs_index_panel':
-			for img in self.params(img_array):
+			for img in self.params['img_array']:
 				self.items.append(img)
 
 
