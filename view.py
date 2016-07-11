@@ -241,7 +241,7 @@ class Chart:
 		count = 0
 		html = []
 		for i in country_list:
-			fig, ax = plt.subplots(1,1,figsize=(8,8))	
+			fig, ax = plt.subplots(1,1,figsize=(10,10))	
 			#fig, ax = plt.subplots(1,1)	
 			ax2 = ax.twinx()
 			ax.set_title(i + '\n', fontsize = titlesize, fontweight = 'bold')
@@ -255,7 +255,7 @@ class Chart:
 					 color = 'blue')
 			count = count + 1
 			ax.set_xlabel('\n Value', fontsize = axeslabelsize)
-			ax.set_ylabel('\n \n \n Index', fontsize = axeslabelsize)
+			ax.set_ylabel('\n Index', fontsize = axeslabelsize)
 			ax.legend(loc='upper left', shadow=True, prop= {'size':legendsize})
 			ax.set_axis_bgcolor('#f2f2f2')
 			ax.tick_params(labelsize=ticksize)
