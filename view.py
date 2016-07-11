@@ -255,7 +255,7 @@ class Chart:
 					 color = 'blue')
 			count = count + 1
 			ax.set_xlabel('\n Value', fontsize = axeslabelsize)
-			ax.set_ylabel('\n Index', fontsize = axeslabelsize)
+			ax.set_ylabel('\n \n \n Index', fontsize = axeslabelsize)
 			ax.legend(loc='upper left', shadow=True, prop= {'size':legendsize})
 			ax.set_axis_bgcolor('#f2f2f2')
 			ax.tick_params(labelsize=ticksize)
