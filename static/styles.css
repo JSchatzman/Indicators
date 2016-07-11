@@ -110,7 +110,7 @@ body {
 	align-items: flex-start;  /* align items vertically with their tops at the same height */
 	border:3px solid #9CA29B;
 	margin:5px;
-	padding:80px;
+	padding:10px;
 	overflow-y: auto;
 	overflow-x: hidden;
 }
