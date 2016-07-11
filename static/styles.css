@@ -109,7 +109,7 @@ body {
 	justify-content: flex-center;  /* clump the items together horizontally in the center of the flexbox 8 */
 	align-items: flex-start;  /* align items vertically with their tops at the same height */
 	border:3px solid #9CA29B;
-	margin:50px;
+	margin:5px;
 	padding:10px;
 	overflow-y: auto;
 	overflow-x: hidden;
