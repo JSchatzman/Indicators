@@ -240,6 +240,9 @@ class Chart:
 #		ax2 = ax.twinx()
 		count = 0
 		html = []
+		max_index = index_test.df['Index'].max()*(1.1)
+		max_indicator = index_test.df[column_list[0]].max()*(1.1)
+		index
 		for i in country_list:
 			fig, ax = plt.subplots(1,1,figsize=(10,10))	
 			#fig, ax = plt.subplots(1,1)	
@@ -259,10 +262,12 @@ class Chart:
 			ax.legend(loc='upper left', shadow=True, prop= {'size':legendsize})
 			ax.set_axis_bgcolor('#f2f2f2')
 			ax.tick_params(labelsize=ticksize)
+			ax.set_ylim(0,max_index)
 			ax2.set_ylabel(column_list[0], fontsize = axeslabelsize)
 			ax2.legend(loc='upper right', shadow=True, prop= {'size':legendsize})
 			ax2.set_axis_bgcolor('#f2f2f2')
 			ax2.tick_params(labelsize=ticksize)
+			ax2.set_ylim(0,max_indicator)
 			#Save the figure as a temporary file in the static/temp directory
 			f = tempfile.NamedTemporaryFile(dir = '/var/www/flasky/flasky/static/temp', suffix='.png', delete=False)
 			plt.savefig(f)	
