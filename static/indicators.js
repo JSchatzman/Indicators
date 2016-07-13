@@ -57,10 +57,13 @@ $(document).ready(function () {
 			alert("Please select a valid indicator from the list");
 			return;
 		}
-
 		var params = g_IndicatorCode + '+' + sy + '+' + ey;
-		
-		window.location = 'http://lockers.cloudapp.net/params/' + params;	
+		if(String(windows.location.pathname).indexOf('params') > -1) {
+			window.location = 'http://lockers.cloudapp.net/params/' + params;
+		} 
+		else {
+		window.location = 'http://lockers.cloudapp.net/index_vs_indicators/' + params;	
+		}
 	});
 
 });
