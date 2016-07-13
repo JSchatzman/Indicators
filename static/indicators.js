@@ -58,11 +58,11 @@ $(document).ready(function () {
 			return;
 		}
 		var params = g_IndicatorCode + '+' + sy + '+' + ey;
-		if(String(windows.location.pathname).indexOf('params') > -1) {
+		if(String(window.location.pathname).indexOf('params') > -1) {
 			window.location = 'http://lockers.cloudapp.net/params/' + params;
 		} 
 		else {
-		window.location = 'http://lockers.cloudapp.net/index_vs_indicators/' + params;	
+			window.location = 'http://lockers.cloudapp.net/index_vs_indicators/' + params;	
 		}
 	});
 
