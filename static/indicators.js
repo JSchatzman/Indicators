@@ -57,13 +57,15 @@ $(document).ready(function () {
 			alert("Please select a valid indicator from the list");
 			return;
 		}
-		var params = g_IndicatorCode + '+' + sy + '+' + ey;
+		
 		if(String(window.location.pathname).indexOf('params') > -1) {
+			var params = g_IndicatorCode + '+' + sy + '+' + ey;
 			window.location = 'http://lockers.cloudapp.net/params/' + params;
 		} 
 		else {
 			g_IndicatorCode = 'EG.USE.PCAP.KG.OE';
-			window.location = 'http://lockers.cloudapp.net/index_vs_indicators/' + g_IndicatorCode + params;	
+			var params = g_IndicatorCode + '+' + sy + '+' + ey;
+			window.location = 'http://lockers.cloudapp.net/index_vs_indicators/' + params;	
 		}
 	});
 
