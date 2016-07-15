@@ -257,7 +257,7 @@ class Chart:
 			ax2.plot(index_test.df[index_test.df['CountryName'] == i]['Year'], 
 					 index_test.df[index_test.df['CountryName'] == i][column_list[0]],
 					 label = column_list[0],
-					 color = colors[count],
+					 color = colors[count+1],
 					 #color = self.line_styles[count+1][0],
 					 #linestyle=self.line_styles[count+1][1],
 					 linewidth = 2)
