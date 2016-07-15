@@ -12,6 +12,7 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import ScalarFormatter, FormatStrFormatter
 
 class Page:
+	#test
 	def home(self, params):
 		section = PageSection()
 		header = section.site_header(params)
