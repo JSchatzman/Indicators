@@ -4,7 +4,7 @@ $(document).ready(function () {
 	
 	$('.site_menu_link').click(function(e) {
 		switch($(e.target).text()){
-			case 'Contact':
+			case 'Contact Me':
 				$('.contact_box').css('display','block');
 				$('.contact_box').center();
 				break;
