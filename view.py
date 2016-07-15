@@ -250,14 +250,14 @@ class Chart:
 			ax.plot(index_test.df[index_test.df['CountryName'] == i]['Year'], 
             	    index_test.df[index_test.df['CountryName'] == i]['Index'],
 				    label = 'Index',
-                    color = self.line_styles[i][0],
-					linestyle=self.line_styles[i][1],
+                    color = self.line_styles[count][0],
+					linestyle=self.line_styles[count][1],
 					linewidth=2)
 			ax2.plot(index_test.df[index_test.df['CountryName'] == i]['Year'], 
 					 index_test.df[index_test.df['CountryName'] == i][column_list[0]],
 					 label = column_list[0],
-					 color = self.line_styles[i+1][0],
-					 linestyle=self.line_styles[i+1][1],
+					 color = self.line_styles[count+1][0],
+					 linestyle=self.line_styles[count+1][1],
 					 linewidth = 2)
 			count = count + 1
 			ax.set_xlabel('\n Value', fontsize = axeslabelsize)
