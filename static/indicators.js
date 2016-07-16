@@ -58,7 +58,7 @@ $(document).ready(function () {
 			return;
 		}
 		
-		if(String(window.location.pathname).indexOf('params') > -1) {
+		if(String(window.location.pathname).indexOf('params') > -1 || String(window.location) == 'lockers.cloudapp.net') {
 			var params = g_IndicatorCode + '+' + sy + '+' + ey;
 			window.location = 'http://lockers.cloudapp.net/params/' + params;
 		} 
