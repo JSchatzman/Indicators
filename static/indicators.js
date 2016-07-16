@@ -58,11 +58,11 @@ $(document).ready(function () {
 			return;
 		}
 		
-		if(String(window.location.pathname).indexOf('params') > -1 || String(window.location) == 'http://lockers.cloudapp.net') {
+		if(String(window.location.pathname).indexOf('params') > -1) {
 			var params = g_IndicatorCode + '+' + sy + '+' + ey;
 			window.location = 'http://lockers.cloudapp.net/params/' + params;
 		} 
-		else {
+		else if(String(window.location.pathname).indexOf('index_vs_indicator') > -1) {
 			g_IndicatorCode = 'EG.USE.PCAP.KG.OE';
 			var params = g_IndicatorCode + '+' + sy + '+' + ey;
 			window.location = 'http://lockers.cloudapp.net/index_vs_indicator/' + params;	
