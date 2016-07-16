@@ -67,6 +67,11 @@ $(document).ready(function () {
 			var params = g_IndicatorCode + '+' + sy + '+' + ey;
 			window.location = 'http://lockers.cloudapp.net/index_vs_indicator/' + params;	
 		}
+		else  {
+			g_IndicatorCode = 'EG.USE.PCAP.KG.OE';
+			var params = g_IndicatorCode + '+' + sy + '+' + ey;
+			window.location = 'http://lockers.cloudapp.net/params/' + params;	
+		}		
 	});
 
 });
