@@ -76,9 +76,11 @@ class Lookup:
 	
 	#Very short indicator descriptions for use within list boxes, etc.
 	ind_text = {
-		'EN.ATM.CO2E.KT' : 'CO2 Emissions (KT)', 'EN.ATM.CO2E.PC' : 'CO2 Emissions (MT/Capita)', 
-		'EN.ATM.CO2E.KD.GD' : 'CO2 Emissions kg/2005 US GDP', 'EN.ATM.CO2E.PP.GD.KD' : 'CO2 Emissions,kg/2011 US GDP', 
-		'EG.USE.COMM.GD.PP' : 'Energy Use kg/$1000 GDP'
+		'EN.ATM.CO2E.KT' : 'CO2 Emissions (KT)', 
+		'EN.ATM.CO2E.PC' : 'CO2 Emissions (MT/Capita)', 
+		'EN.ATM.CO2E.KD.GD' : 'CO2 Emissions kg/2005 US GDP', 
+		'EN.ATM.CO2E.PP.GD.KD' : 'CO2 Emissions,kg/2011 US GDP', 
+		'EG.USE.COMM.GD.PP.KD' : 'Energy Use kg/$1000 GDP'
 		}
 	
 	#Panel descriptions
@@ -87,7 +89,7 @@ class Lookup:
 		'EN.ATM.CO2E.KT' : 'change in total carbon dioxide emissions over the selected timeframe.  Values shown are in kilotons.',
 		'EN.ATM.CO2E.KD.GD' : 'change in total carbon dioxide emissions over the selected timeframe. Values shown are in kilograms per 2005 U.S. Gross Domestic Product',
 		'EN.ATM.CO2E.PP.GD.KD' : 'change in total carbon dioxide emissions over the seleted timeframe.  Values shown are in kilograms per 2011 U.S. Gross Domestic Product',
-		'EG.USE.COMM.GD.PP' : 'change in energy consumption over the selected timeframe.  Values shown are in kilograms per $1,000 Gross Domestic Product'
+		'EG.USE.COMM.GD.PP.KD' : 'change in energy consumption over the selected timeframe.  Values shown are in kilograms per $1,000 Gross Domestic Product'
 	}
 
 	#Sets of column names for specific table types:
