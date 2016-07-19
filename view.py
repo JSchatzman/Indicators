@@ -12,7 +12,6 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import ScalarFormatter, FormatStrFormatter
 
 class Page:
-	#test
 	def home(self, params):
 		section = PageSection()
 		header = section.site_header(params)
@@ -138,7 +137,6 @@ class  VisualObjectPanel:
 				cl = CountryList()
 				country_list = cl.by_region(region)
 				data = q.indicator_change(country_list, self.params)
-				#ht = HTMLTable('indicator_1', 'ind_table', 'ind_table_1', region, Lookup.table_columns['indicator_1'], data)
 				ht = HTMLTable('indicator_1', 'ind_table', 'ind_table_1', region, lookup.get_column_names('indicator_1', self.params), data)
 				
 				self.items.append(ht.html)
@@ -202,7 +200,6 @@ class Chart:
 		#log.writeline('debug', 'self.data before loop', 'plot_values_over_years', self.data)
 		for row in self.data:
 			plt.plot(row[2], row[3], color=self.line_styles[i][0], linestyle=self.line_styles[i][1], linewidth=2, label=self.data[i][1])
-			#plt.plot(row[2], row[3], self.plot_formats[i], label = self.data[i][1], linewidth = 2)
 			i += 1
 			if i == 11:
 				break
