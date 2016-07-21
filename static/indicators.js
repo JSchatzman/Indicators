@@ -16,7 +16,7 @@ $(document).ready(function () {
 		}
 	});
 	
-	$('home_link').click(function(e) {
+	$('.home_link').click(function(e) {
 		window.location = 'http://lockers.cloudapp.net/';
 	});
 
