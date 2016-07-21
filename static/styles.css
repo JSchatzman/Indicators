@@ -147,12 +147,11 @@ body {
 }
 
 .contact_box_text {
-	color: #fff;
+	color: #000;
 	position: absolute;
-	top: 40%;
+	top: 30%;
 	padding: 20px;
 	cursor: pointer;
-	width: 60%;
 	font-size:20px;
 	margin: auto;
 	text-align:center;
