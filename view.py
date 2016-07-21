@@ -79,6 +79,7 @@ class PageSection:
 			<div class="page">
 				<div class="site_header">
 					<div class="site_menu">
+						<div class="home_link">Home</div>
 						<div class="site_menu_link">Index Analysis</div>
 						<div class="site_menu_link">About</div>
 						<div class="site_menu_link">Contact Me</div>

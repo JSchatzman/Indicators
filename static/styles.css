@@ -37,6 +37,15 @@ body {
     cursor: pointer; 
 }
 
+.home_link {
+	padding: 5px 10px;
+	margin: 10px;
+	color:  #fff;
+	font-size: 22px;
+	font-family: Montserrat;
+    cursor: pointer; 
+}
+
 .site_menu_link:hover {
 	color: #af91bf;
 }
