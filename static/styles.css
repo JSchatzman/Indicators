@@ -121,25 +121,35 @@ body {
 	background-color: #f7f7f7;
 	border: 3px solid black;
 	border-radius: 5px;
-	min-height: 500px;
+	min-height: 400px;
 	text-align: center;
+	padding: 0;
 }
 
 #contact_box_close {
 	color: #ffffff;
-	padding: 1px;
+	padding: 5px 11px 5px 11px;
 	position: absolute;
-	top: -5px;
-	right: -5px;
+	top: -12px;
+	right: -12px;
 	background-color: #af0000;
 	cursor: pointer;
 	border: 1px solid #dfdfdf;
 	border-radius: 50%;
 	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#contact_box_close:hover {
+	color: #9CA29B;
+	background-color: #e00000;
 }
 
 #contact_box_text {
 	color: #fff;
+	position: absolute;
+	top: 40%;
 	padding: 20px;
 	cursor: pointer;
 	width: 60%;
@@ -147,7 +157,9 @@ body {
 	margin: auto;
 	text-align:center;
 }
-
+.contact_box_head {
+	padding: 0;
+}
 /******************** Table Styles *******************/
 caption {
 	background-color: #6bbaa7;
