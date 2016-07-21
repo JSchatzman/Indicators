@@ -146,7 +146,7 @@ body {
 	background-color: #e00000;
 }
 
-#contact_box_text {
+.contact_box_text {
 	color: #fff;
 	position: absolute;
 	top: 40%;
@@ -157,7 +157,8 @@ body {
 	margin: auto;
 	text-align:center;
 }
-.contact_box_head {
+.contact_box_head,
+.contact_box_head img {
 	padding: 0;
 }
 /******************** Table Styles *******************/
