@@ -48,10 +48,11 @@ class PageSection:
 		css_file = url_for('static', filename='styles.css', _external=True)
 		js_file = url_for('static', filename='indicators.js', _external=True)
 		image_file = url_for('static', filename='d3-sample.png', _external=True)
+		cb_image_file = url_for('static', filename='contact-box-head.png', _external=True)
 		style_string = '<link rel=stylesheet type=text/css href="' + css_file + '">'
 		js_string = '<script type="text/javascript" src="' + js_file + '"></script>'
 		image_string = '<img class="header_image" src="' + image_file + '" alt="Analytics">'
-		
+		contact_box_image = '<img class="header_image" src="' + image_file + '" alt="Analytics">'
 		if params['page_name'] == 'home':
 			item_list = ItemList('indicators', 'Indicator:', Lookup.ind_text, 'EN.ATM.CO2E.PC', False)
 		
@@ -99,10 +100,11 @@ class PageSection:
 					</div>
 				</div>
                 <div class="contact_box">
-					<p>Feel free to reach out and contact me at jordan.schatzman@outlook.com</p>
-					<div id="contact_box_close">Close</div>
+					<div class="contact_box_head">%s</div>
+					<div class="contact_box_text">Feel free to contact me at jordan.schatzman@outlook.com</div>
+					<div id="contact_box_close">x</div>
 				</div>
-			""" % (style_string, js_string, flask_version, image_string, item_list.get_html(), start_year.html, end_year.html)
+			""" % (style_string, js_string, flask_version, image_string, item_list.get_html(), start_year.html, end_year.html, contact_box_image)
 		
 		return output
 

@@ -149,7 +149,6 @@ class Query:
 		conn = sqlite3.connect(DB_PATH)
 		c = conn.cursor()
 		sql = "SELECT CountryName, Year, Value FROM Indicators WHERE IndicatorCode = " 
-		#sql += "'" + indicator_code + "'" + " AND Year = " + str(params['start_year']) + " AND CountryName IN (" + cc_list + ")"
 		sql += "'" + params['ind_code'] + "'" + " AND Year = " + str(params['start_year']) + " AND " + in_clause
 		sql += " ORDER BY CountryName"
 
@@ -163,6 +162,7 @@ class Query:
 				if element not in xl:
 					rowset1.append((element, params['start_year'], '--'))
 		
+		#If rowset1 has no row because 
 		#re-sort the list based on the first element in each row:
 		rowset1.sort(key=lambda x: x[0])
 

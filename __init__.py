@@ -44,8 +44,6 @@ def ivi_request(parameters):
 	params = {'page_name':'index_vs_indicator', 'ind_code': param_list[0], 'start_year': int(param_list[1]), 'end_year': int(param_list[2]), 'img_array': html}
 	vop = VisualObjectPanel('indicator_vs_index_panel', params)
 	output = page.region(params) + vop.html
-#	for i in html:
-#		output = output + i
 	return output
 
 
