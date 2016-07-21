@@ -15,11 +15,14 @@ $(document).ready(function () {
 				break;
 		}
 	});
+	
+	$('home_link').click(function(e) {
+		window.location = 'http://lockers.cloudapp.net/';
+	});
 
 	$('#contact_box_close').click(function(e) {
 		$('.contact_box').css('display', 'none');
 	});
-
 
 	$('.selected_item').click(function(e) {
 		var id = $(this).attr("id");
