@@ -52,7 +52,7 @@ class PageSection:
 		style_string = '<link rel=stylesheet type=text/css href="' + css_file + '">'
 		js_string = '<script type="text/javascript" src="' + js_file + '"></script>'
 		image_string = '<img class="header_image" src="' + image_file + '" alt="Analytics">'
-		contact_box_image = '<img class="header_image" src="' + image_file + '" alt="Analytics">'
+		contact_box_image = '<img src="' + cb_image_file + '" alt="Contact">'
 		if params['page_name'] == 'home':
 			item_list = ItemList('indicators', 'Indicator:', Lookup.ind_text, 'EN.ATM.CO2E.PC', False)
 		
