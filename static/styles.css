@@ -37,6 +37,10 @@ body {
     cursor: pointer; 
 }
 
+.site_menu_link:hover {
+	color: #af91bf;
+}
+
 .home_link {
 	padding: 5px 10px;
 	margin: 10px;
@@ -47,7 +51,7 @@ body {
 	position: left;
 }
 
-.site_menu_link:hover {
+.home_link:hover {
 	color: #af91bf;
 }
 
