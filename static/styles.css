@@ -43,7 +43,8 @@ body {
 	color:  #fff;
 	font-size: 22px;
 	font-family: Montserrat;
-    cursor: pointer; 
+    cursor: pointer;
+	position: left;
 }
 
 .site_menu_link:hover {
