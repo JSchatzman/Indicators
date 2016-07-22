@@ -103,7 +103,6 @@ class PageSection:
 					<div class="contact_box_head">%s</div>
 					<div class="contact_box_text">
 						<div class="cb_text1">Feel free to contact me at</div>
-						<hr>
 						<div class="cb_text2">
 							<a href="mailto:jordan.schatzman@outlook.com">jordan.schatzman@outlook.com</a>
 						</div>
