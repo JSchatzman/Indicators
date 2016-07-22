@@ -101,7 +101,10 @@ class PageSection:
 				</div>
                 <div class="contact_box">
 					<div class="contact_box_head">%s</div>
-					<div class="contact_box_text">Feel free to contact me at jordan.schatzman@outlook.com</div>
+					<div class="contact_box_text">
+						<p class="text1">Feel free to contact me at</p>
+						<p class="text2">jordan.schatzman@outlook.com</p>
+					</div>
 					<div id="contact_box_close">x</div>
 				</div>
 			""" % (style_string, js_string, flask_version, image_string, item_list.get_html(), start_year.html, end_year.html, contact_box_image)
