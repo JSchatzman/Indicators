@@ -11,17 +11,6 @@ body {
 .page {
 	position: relative;
 }
-.cb_text1 {
-	font-size:21px;
-	margin-bottom: 20px;
-	border-bottom: 2px solid #9859ba; 
-}
-.cb_text2 {
-	font-size:25px;
-}
-.cb_text2 a {
-	color:#7525a3;
-}
 /******************** Header Styles  ********************/
 .header_image {
 	width: 550px;
@@ -131,6 +120,7 @@ body {
 	overflow-x: hidden;
 }
 
+/******************** Contact Box Styles *******************/
 .contact_box {
 	display: none;
 	position: absolute;
@@ -164,7 +154,8 @@ body {
 	color: #000;
 	position: absolute;
 	top: 30%;
-	padding: 20px;
+	padding: 0px;
+	width: 100%;
 	margin: auto;
 	text-align:center;
 }
@@ -173,6 +164,30 @@ body {
 .contact_box_head img {
 	padding: 0;
 }
+
+.cb_text1 {
+	font-size:21px;
+	margin-bottom: 10px;
+	padding: 0 0 20px 0;
+	border-bottom: 4px solid #9859ba; 
+}
+.cb_text2 {
+	padding: 7px 10px;
+	background-color: #6bbaa7;
+	font-size:25px;
+	border-radius: 10px;
+}
+.cb_text2 a {
+	/*color:#882abf;*/
+	color: #fff;
+	text-decoration: none;
+}
+
+.cb_text2 a:hover {
+	color:#000;
+	text-decoration: underline; 
+}
+
 /******************** Table Styles *******************/
 caption {
 	background-color: #6bbaa7;
