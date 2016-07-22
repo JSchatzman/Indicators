@@ -12,11 +12,15 @@ body {
 	position: relative;
 }
 .cb_text1 {
-	font-size:24px;
+	font-size:21px;
 	margin-bottom: 20px;
+	border-bottom: 2px solid #9859ba; 
 }
 .cb_text2 {
-	font-size:28px;
+	font-size:25px;
+}
+.cb_text2 a {
+	color:#7525a3;
 }
 /******************** Header Styles  ********************/
 .header_image {
@@ -143,7 +147,7 @@ body {
 	position: absolute;
 	top: -12px;
 	right: -12px;
-	background-color: #282828;
+	background-color: #000;
 	cursor: pointer;
 	border: 1px solid #dfdfdf;
 	border-radius: 50%;
@@ -161,17 +165,8 @@ body {
 	position: absolute;
 	top: 30%;
 	padding: 20px;
-	cursor: pointer;
 	margin: auto;
 	text-align:center;
-}
-
-.contact_box_text hr {
-	height: 43px;
-	margin-bottom: 20px;
-	background-color:#a36cc1;
-	color:#a36cc1;
-	border: 0 none;
 }
 
 .contact_box_head,
