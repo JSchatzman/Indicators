@@ -167,7 +167,7 @@ body {
 }
 
 .cb_text1 {
-	font-size:21px;
+	font-size:24px;
 	margin-bottom: 10px;
 	padding: 0 0 20px 0;
 	border-bottom: 4px solid #9859ba; 
@@ -175,11 +175,10 @@ body {
 .cb_text2 {
 	margin-top: 40px;
 	padding: 7px 10px;
-	font-size:25px;
+	font-size:26px;
 }
 .cb_text2 a {
 	color:#882abf;
-	color: #fff;
 	text-decoration: none;
 }
 
