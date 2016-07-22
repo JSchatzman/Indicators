@@ -129,6 +129,7 @@ body {
 	min-height: 400px;
 	text-align: center;
 	padding: 0;
+	border: 1px solid #808080;
 }
 
 #contact_box_close {
@@ -172,13 +173,12 @@ body {
 	border-bottom: 4px solid #9859ba; 
 }
 .cb_text2 {
+	margin-top: 40px;
 	padding: 7px 10px;
-	background-color: #6bbaa7;
 	font-size:25px;
-	border-radius: 10px;
 }
 .cb_text2 a {
-	/*color:#882abf;*/
+	color:#882abf;
 	color: #fff;
 	text-decoration: none;
 }
