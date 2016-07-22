@@ -12,10 +12,10 @@ body {
 	position: relative;
 }
 .text1 {
-	font-size:28px;
+	font-size:24px;
 }
 .text2 {
-	font-size:34px;
+	font-size:28px;
 }
 /******************** Header Styles  ********************/
 .header_image {
@@ -153,8 +153,7 @@ body {
 }
 
 #contact_box_close:hover {
-	color: #494949;
-	background-color: #e00000;
+	background-color: #494949;
 }
 
 .contact_box_text {
@@ -166,6 +165,15 @@ body {
 	margin: auto;
 	text-align:center;
 }
+
+.contact_box_text hr {
+	width: 70%;
+	height: 4px;
+	background-color:#a36cc1;
+	color:#a36cc1;
+	border: 0 none;
+}
+
 .contact_box_head,
 .contact_box_head img {
 	padding: 0;
