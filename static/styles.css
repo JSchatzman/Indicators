@@ -11,10 +11,11 @@ body {
 .page {
 	position: relative;
 }
-.text1 {
+.cb_text1 {
 	font-size:24px;
+	margin-bottom: 20px;
 }
-.text2 {
+.cb_text2 {
 	font-size:28px;
 }
 /******************** Header Styles  ********************/
@@ -130,8 +131,7 @@ body {
 	display: none;
 	position: absolute;
 	background-color: #f7f7f7;
-	border: 3px solid black;
-	border-radius: 5px;
+	border-radius: 7px;
 	min-height: 400px;
 	text-align: center;
 	padding: 0;
@@ -167,8 +167,8 @@ body {
 }
 
 .contact_box_text hr {
-	width: 70%;
-	height: 4px;
+	height: 43px;
+	margin-bottom: 20px;
 	background-color:#a36cc1;
 	color:#a36cc1;
 	border: 0 none;
