@@ -54,6 +54,7 @@ $(document).ready(function () {
 	$('#main_submit').click(function() {
 		var sy = $('#start_year').val();
 		var ey = $('#end_year').val();
+		var region = $('#region_anchor');
 		if(!validYears(sy, ey)) {
 			alert("Please enter valid start and end years");
 			return;
