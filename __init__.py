@@ -40,8 +40,8 @@ def ivi_request(parameters):
 		param_list[2] = 2010
 	page = Page()
 	chart = Chart('Index vs Indicator', 'x label', 'y label', ['123', '456'])
-	html = chart.index_vs_indicator('EG.USE.PCAP.KG.OE', str(param_list[1]), int(param_list[2]), int(param_list[3]))
-	params = {'page_name':'index_vs_indicator', 'ind_code': param_list[0], 'start_year': int(param_list[1]), 'end_year': int(param_list[2]), 'img_array': html}
+	html = chart.index_vs_indicator('EG.USE.PCAP.KG.OE', param_list[1], int(param_list[2]), int(param_list[3]))
+	params = {'page_name':'index_vs_indicator', 'ind_code': param_list[0], 'start_year': int(param_list[2]), 'end_year': int(param_list[3]), 'img_array': html}
 	vop = VisualObjectPanel('indicator_vs_index_panel', params)
 	output = page.region(params) + vop.html
 #	for i in html:
