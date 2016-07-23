@@ -70,7 +70,7 @@ $(document).ready(function () {
 		} 
 		else if(String(window.location.pathname).indexOf('index_vs_indicator') > -1) {
 			g_IndicatorCode = 'EG.USE.PCAP.KG.OE';
-			var params = g_IndicatorCode + '+' + sy + '+' + ey;
+			var params = g_IndicatorCode + '+' + 'North America' + '+' + sy + '+' + ey;
 			window.location = 'http://lockers.cloudapp.net/index_vs_indicator/' + params;	
 		}
 		else  {
