@@ -9,7 +9,7 @@ $(document).ready(function () {
 				$('.contact_box').center();
 				break;
 			case 'Index Analysis':
-				window.location = 'http://lockers.cloudapp.net/index_vs_indicator/EG.USE.PCAP.KG.OE+2000+2012';
+				window.location = 'http://lockers.cloudapp.net/index_vs_indicator/EG.USE.PCAP.KG.OE+North America+2000+2012';
 				break;
 			case 'Version':
 				break;
