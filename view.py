@@ -275,6 +275,7 @@ class Chart:
 			ax2.set_axis_bgcolor('#f2f2f2')
 			ax2.tick_params(labelsize=ticksize)
 			ax2.set_ylim(0,max_indicator)
+			ax.ticklabel_format(style='plain', useOffset=False)
 			#Save the figure as a temporary file in the static/temp directory
 			f = tempfile.NamedTemporaryFile(dir = '/var/www/flasky/flasky/static/temp', suffix='.png', delete=False)
 			plt.savefig(f)	
