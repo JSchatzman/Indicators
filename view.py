@@ -242,6 +242,8 @@ class Chart:
 #		ax2 = ax.twinx()
 		count = 0
 		html = []
+		max_year = index_test.df['Year'].max()
+		min_year = index_test.df['Year'].min()
 		max_index = index_test.df['Index'].max()*(1.1)
 		max_indicator = index_test.df[column_list[0]].max()*(1.1)
 		for i in country_list:
@@ -265,6 +267,7 @@ class Chart:
 					 linewidth = 2)
 			count = count + 1
 			ax.set_xlabel('\n Value', fontsize = axeslabelsize)
+			ax.set_xlim([min_year, max_year])
 			ax.set_ylabel('\n Index', fontsize = axeslabelsize)
 			ax.legend(loc='upper left', shadow=True, prop= {'size':legendsize})
 			ax.set_axis_bgcolor('#f2f2f2')
