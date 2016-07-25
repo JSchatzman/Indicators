@@ -113,7 +113,7 @@ class PageSection:
 				</div>
 			""" % (style_string, js_string, flask_version, image_string, item_list.get_html(), start_year.html, end_year.html, contact_box_image)
 		
-		return output
+		return output  + about_box
 
 class  VisualObjectPanel:
 	
