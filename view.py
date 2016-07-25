@@ -444,7 +444,7 @@ class InputBox:
 		self.html += '<input type="text" id="' + self.input_id + '" class="' + self.input_class + '" placeholder="' + self.placeholder + '"' + self.value_string + '>'
 		self.html += '</div>'
 
-def about_box:
+def about_box():
 	html = '''
 		<div class="about_box">
 			<div class="ab_menu">
