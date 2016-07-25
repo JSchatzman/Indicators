@@ -39,7 +39,7 @@ $(document).ready(function () {
 
 
 	$('.item').click( function(e) {
-		//Get the id of the list container and add '_anchor' to get the id of the div heading the list.
+		// Get the id of the list container and add '_anchor' to get the id of the div heading the list.
 		var clicked_text = $(e.target).text();
 		g_IndicatorCode = $(e.target).attr('data-value'); //global
 		var id  = $(e.target).parent().attr('id') + '_anchor';
