@@ -143,6 +143,7 @@ body {
 	align-items: flex-start;  /* align items vertically with their tops at the same height */
 	width: 800px;
 	height: 500px;
+	background-color: #5e5e5e;
 }
 
 .ab_menu {
@@ -160,22 +161,27 @@ body {
 	width: 80%;
 	padding: 20px;
 	background-color: #3a3a3a;
+	color: #fff;
 }
 
 .ab_menu_item {
 	color: #fff;
 	background-color: #9859ba;
 	border-radius: 3px;
-	width: 200px;
+	width: 180px;
 	height: 30px;
 	line-height: 30px;
-	font-size: 22px;
+	font-size: 20px;
 	text-align: center;
 	margin: 20px 0;
+	padding: 10px 0;
 }
 
 .ab_text_lookup {
 	display: none;
+	padding: 10px;
+	color: #fff;
+	font-size: 16px;
 }
 
 /******************** Contact Box Styles *******************/

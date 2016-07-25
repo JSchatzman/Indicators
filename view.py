@@ -456,8 +456,11 @@ def about_box():
 			<div class="ab_text_box">
 				<h1>Title</h1>
 				<div class="ab_text_lookup" id="ab_text_1">
-					<p>Item 1 Paragraph 1</p>
-					<p>Item 1 Paragraph 2</p>
+					<p>This project evolved from a desire to learn the Python programming language.  As a database developer, I wanted to
+					complement my database design and SQL skills with additional data processing and analytical capabilities.  Since Python 
+					seems designed for data, I chose Python.
+					</p>
+					<p>Item 1 Paragraph 2.  Here is some more text</p>
 				</div>
 				<div class="ab_text_lookup" id="ab_text_2">
 					<p>Item 2 Paragraph 1</p>
