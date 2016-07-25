@@ -455,23 +455,22 @@ def about_box():
 			</div>
 			<div class="ab_text_box">
 				<h1>Title</h1>
-				<div class="ab_text"></div>
-			</div>
-			<div class="ab_text_lookup" id="ab_text_1">
-				<p>Item 1 Paragraph 1</p>
-				<p>Item 1 Paragraph 2</p>
-			</div>
-			<div class="ab_text_lookup" id="ab_text_2">
-				<p>Item 2 Paragraph 1</p>
-				<p>Item 2 Paragraph 2</p>
-			</div>
-			<div class="ab_text_lookup" id="ab_text_3">
-				<p>Item 3 Paragraph 1</p>
-				<p>Item 3 Paragraph 2</p>
-			</div>
-			<div class="ab_text_lookup" id="ab_text_4">
-				<p>Item 4 Paragraph 1</p>
-				<p>Item 4 Paragraph 2</p>
+				<div class="ab_text_lookup" id="ab_text_1">
+					<p>Item 1 Paragraph 1</p>
+					<p>Item 1 Paragraph 2</p>
+				</div>
+				<div class="ab_text_lookup" id="ab_text_2">
+					<p>Item 2 Paragraph 1</p>
+					<p>Item 2 Paragraph 2</p>
+				</div>
+				<div class="ab_text_lookup" id="ab_text_3">
+					<p>Item 3 Paragraph 1</p>
+					<p>Item 3 Paragraph 2</p>
+				</div>
+				<div class="ab_text_lookup" id="ab_text_4">
+					<p>Item 4 Paragraph 1</p>
+					<p>Item 4 Paragraph 2</p>
+				</div>
 			</div>
 		</div>
 		'''

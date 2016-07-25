@@ -11,7 +11,7 @@ $(document).ready(function () {
 				break;
 			
 			case 'About':
-				$('.about_box').css('display','block');
+				$('.about_box').css('display','flex');
 				$('.about_box').center();
 				break;
 
@@ -22,6 +22,13 @@ $(document).ready(function () {
 			case 'Version':
 				break;
 		}
+	});
+
+	$('.ab_menu_item').click(function(e) {
+		var id = $(e.target).attr("id");
+		var num = id.slice(-1);   //Get the last character in the string
+		$('.ab_text_lookup').css('display', 'none');
+		$('#ab_text_' + num).css('display', 'block');
 	});
 	
 	$('.home_link').click(function(e) {

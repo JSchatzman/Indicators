@@ -166,10 +166,16 @@ body {
 	color: #fff;
 	background-color: #9859ba;
 	border-radius: 3px;
-	width: 80px;
+	width: 200px;
 	height: 30px;
 	line-height: 30px;
-	font-size: 16px;
+	font-size: 22px;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.ab_text_lookup {
+	display: none;
 }
 
 /******************** Contact Box Styles *******************/
