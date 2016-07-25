@@ -4,13 +4,21 @@ $(document).ready(function () {
 	
 	$('.site_menu_link').click(function(e) {
 		switch($(e.target).text()){
+			
 			case 'Contact Me':
 				$('.contact_box').css('display','block');
 				$('.contact_box').center();
 				break;
+			
+			case 'About':
+				$('.about_box').css('display','block');
+				$('.about_box').center();
+				break;
+
 			case 'Index Analysis':
 				window.location = 'http://lockers.cloudapp.net/index_vs_indicator/EG.USE.PCAP.KG.OE+North America+2000+2012';
 				break;
+			
 			case 'Version':
 				break;
 		}

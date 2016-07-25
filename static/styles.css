@@ -125,13 +125,51 @@ body {
 	display: flex;
    	flex-direction:row;
 	flex-wrap: wrap;
-	justify-content: flex-center;  /* clump the items together horizontally in the center of the flexbox 8 */
+	justify-content: flex-center;  /* clump the items together horizontally in the center of the flexbox */
 	align-items: flex-start;  /* align items vertically with their tops at the same height */
 	border:3px solid #9CA29B;
 	margin:5px;
 	padding:10px;
 	overflow-y: auto;
 	overflow-x: hidden;
+}
+/******************** About Box Styles *******************/
+.about_box {
+	display: none;
+   	position: absolute;
+	flex-direction:row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;  /* align items vertically with their tops at the same height */
+	width: 800px;
+	height: 500px;
+}
+
+.ab_menu {
+	display: flex;
+   	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;  /* align items vertically with their tops at the same height */
+	width: 20%;
+	padding: 20px;
+	background-color: #282828;
+}
+
+.ab_text_box {
+	width: 80%;
+	padding: 20px;
+	background-color: #3a3a3a;
+}
+
+.ab_menu_item {
+	color: #fff;
+	background-color: #9859ba;
+	border-radius: 3px;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
 }
 
 /******************** Contact Box Styles *******************/

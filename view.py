@@ -443,3 +443,36 @@ class InputBox:
 		self.html += '<div class="input_box_label">' + self.label + '</div>'
 		self.html += '<input type="text" id="' + self.input_id + '" class="' + self.input_class + '" placeholder="' + self.placeholder + '"' + self.value_string + '>'
 		self.html += '</div>'
+
+def about_box:
+	html = '''
+		<div class="about_box">
+			<div class="ab_menu">
+				<div class="ab_menu_item" id="ab_item_1">Background</div>
+				<div class="ab_menu_item" id="ab_item_2">Purpose</div>			
+				<div class="ab_menu_item" id="ab_item_3">Data</div>
+				<div class="ab_menu_item" id="ab_item_4">Technology</div>
+			</div>
+			<div class="ab_text_box">
+				<h1>Title</h1>
+				<div class="ab_text"></div>
+			</div>
+			<div class="ab_text_lookup" id="ab_text_1">
+				<p>Item 1 Paragraph 1</p>
+				<p>Item 1 Paragraph 2</p>
+			</div>
+			<div class="ab_text_lookup" id="ab_text_2">
+				<p>Item 2 Paragraph 1</p>
+				<p>Item 2 Paragraph 2</p>
+			</div>
+			<div class="ab_text_lookup" id="ab_text_3">
+				<p>Item 3 Paragraph 1</p>
+				<p>Item 3 Paragraph 2</p>
+			</div>
+			<div class="ab_text_lookup" id="ab_text_4">
+				<p>Item 4 Paragraph 1</p>
+				<p>Item 4 Paragraph 2</p>
+			</div>
+		</div>
+		'''
+	return html
