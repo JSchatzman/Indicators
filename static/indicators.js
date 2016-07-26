@@ -40,8 +40,12 @@ $(document).ready(function () {
 		window.location = 'http://lockers.cloudapp.net/';
 	});
 
-	$('#contact_box_close').click(function(e) {
-		$('.contact_box').css('display', 'none');
+	// $('#contact_box_close').click(function(e) {
+	// 	$('.contact_box').css('display', 'none');
+	// });
+
+	$('.close_parent').click(function(e) {
+		$(this).parent().css('display', 'none');
 	});
 
 	$('.selected_item').click(function(e) {

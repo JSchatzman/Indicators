@@ -109,7 +109,7 @@ class PageSection:
 							<a href="mailto:jordan.schatzman@outlook.com">jordan.schatzman@outlook.com</a>
 						</div>
 					</div>
-					<div id="contact_box_close">x</div>
+					<div class="close_parent">x</div>
 				</div>
 			""" % (style_string, js_string, flask_version, image_string, item_list.get_html(), start_year.html, end_year.html, contact_box_image)
 		
@@ -454,6 +454,7 @@ def about_box():
 				<div class="ab_menu_item" id="ab_item_4">Technology</div>
 			</div>
 			<div class="ab_content">
+				<div class="close_parent">x</div>
 				<h1>Title</h1>
 				<div class="ab_text" id="ab_text_1">
 					<p>This project sprang from a desire to learn the Python programming language.  As a database developer, I wanted to

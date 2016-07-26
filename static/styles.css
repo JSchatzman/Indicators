@@ -217,7 +217,7 @@ html, body {
 	border: 2px solid #808080;
 }
 
-#contact_box_close {
+.close_parent {
 	color: #ffffff;
 	padding: 4px 10px 4px 10px;
 	position: absolute;
