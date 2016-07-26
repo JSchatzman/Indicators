@@ -460,8 +460,8 @@ def about_box():
 					complement my database design and SQL skills with additional data processing and analytical capabilities.  Since Python 
 					seems designed for this, it seemed the natural choice.
 					</p>
-					<p>Since there are lots of public datasets on <a href="www.kaggle.com">www.kaggle.com</a>, I started there.  Eventually, I chose the
-					<a href="www.kaggle.com/worldbank/world-development-indicators">World Development Indicators</a> (WDI) database since there are millions of
+					<p>Since there are lots of public datasets on <a href="http://www.kaggle.com">kaggle.com</a>, I started there.  Eventually, I chose the
+					<a href="http://www.kaggle.com/worldbank/world-development-indicators">World Development Indicators</a> (WDI) database since there are millions of
 					rows of great data that can be used to visualize world trends and prove or disprove certain hypotheses.  WDI comes in a handy
 					sqlite database container, which Python can access easily simply by importing sqlite3.
 					</p>
