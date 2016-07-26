@@ -455,23 +455,22 @@ def about_box():
 			</div>
 			<div class="ab_content">
 				<h1>Title</h1>
-				<div class="ab_text"></div> 
-				<div class="ab_text_lookup" id="ab_text_1">
+				<div class="ab_text" id="ab_text_1">
 					<p>This project evolved from a desire to learn the Python programming language.  As a database developer, I wanted to
 					complement my database design and SQL skills with additional data processing and analytical capabilities.  Since Python 
 					seems designed for data, I chose Python.
 					</p>
 					<p>Item 1 Paragraph 2.  Here is some more text</p>
 				</div>
-				<div class="ab_text_lookup" id="ab_text_2">
+				<div class="ab_text" id="ab_text_2">
 					<p>Item 2 Paragraph 1</p>
 					<p>Item 2 Paragraph 2</p>
 				</div>
-				<div class="ab_text_lookup" id="ab_text_3">
+				<div class="ab_text" id="ab_text_3">
 					<p>Item 3 Paragraph 1</p>
 					<p>Item 3 Paragraph 2</p>
 				</div>
-				<div class="ab_text_lookup" id="ab_text_4">
+				<div class="ab_text" id="ab_text_4">
 					<p>Item 4 Paragraph 1</p>
 					<p>Item 4 Paragraph 2</p>
 				</div>
