@@ -447,6 +447,7 @@ class InputBox:
 def about_box():
 	html = '''
 		<div class="about_box">
+			<div class="close_parent">x</div>
 			<div class="ab_menu">
 				<div class="ab_menu_item" id="ab_item_1">Background</div>
 				<div class="ab_menu_item" id="ab_item_2">Focus</div>			
@@ -454,7 +455,6 @@ def about_box():
 				<div class="ab_menu_item" id="ab_item_4">Technology</div>
 			</div>
 			<div class="ab_content">
-				<div class="close_parent">x</div>
 				<h1>Title</h1>
 				<div class="ab_text" id="ab_text_1">
 					<p>This project sprang from a desire to learn the Python programming language.  As a database developer, I wanted to
