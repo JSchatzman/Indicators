@@ -449,7 +449,7 @@ def about_box():
 		<div class="about_box">
 			<div class="ab_menu">
 				<div class="ab_menu_item" id="ab_item_1">Background</div>
-				<div class="ab_menu_item" id="ab_item_2">Purpose</div>			
+				<div class="ab_menu_item" id="ab_item_2">Focus</div>			
 				<div class="ab_menu_item" id="ab_item_3">Data</div>
 				<div class="ab_menu_item" id="ab_item_4">Technology</div>
 			</div>
@@ -460,11 +460,26 @@ def about_box():
 					complement my database design and SQL skills with additional data processing and analytical capabilities.  Since Python 
 					seems designed for this, it seemed the natural choice.
 					</p>
-					<p>Item 1 Paragraph 2.  Here is some more text</p>
+					<p>Since there are lots of public datasets on <a href="www.kaggle.com">www.kaggle.com</a>, I started there.  Eventually, I chose the
+					<a href="www.kaggle.com/worldbank/world-development-indicators">World Development Indicators</a> (WDI) database since there are millions of
+					rows of great data that can be used to visualize world trends and prove or disprove certain hypotheses.  WDI comes in a handy
+					sqlite database container, which Python can access easily simply by importing sqlite3.
+					</p>
 				</div>
 				<div class="ab_text" id="ab_text_2">
-					<p>Item 2 Paragraph 1</p>
-					<p>Item 2 Paragraph 2</p>
+					<p>The WDI database contains hundreds of different indicators such as population trends, disease trends, etc, so to narrow the focus of the project, 
+					I decided to focus on indicators associated with global energy use.  To make it a true data analytics project, I decided to come up with an interesting question
+					and then apply different technologies over the dataset to try and answer that question.
+					</p>
+					<p>The question I asked was this:  "As a country becomes more advanced, does it consume more energy or less energy? This was a good question because the 
+					answer wasn't necessarily obvious. It could actually go either way.  For example, as a country gets more advanced, more people use things that require energy,
+					and that might lead to more overall energy use.  Or maybe it's the opposite:  As a country gets more advanced, things that use energy are replaced with more efficient
+					things that consume less energy, leading to less overall energy use.
+					</p>
+					<p>Although the question is simple enough, answering simple questions can turn out to be surprisingly difficult if you want to answer them accurately.
+					For example, how do you define "advanced" and then measure it?  What indicators are the best measure of energy consumption?
+					</p>
+				 
 				</div>
 				<div class="ab_text" id="ab_text_3">
 					<p>Item 3 Paragraph 1</p>
