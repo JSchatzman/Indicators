@@ -24,7 +24,12 @@ $(document).ready(function () {
 		}
 	});
 
+	//Initialize About Box with the text associated with the top ab_menu item
+	$('.ab_content h1').text('#ab_item_1');
+	$('.ab_text').text('#ab_text_1');
+
 	$('.ab_menu_item').click(function(e) {
+		$('.ab_text_box h1').text($(this).text());
 		var id = $(e.target).attr("id");
 		var num = id.slice(-1);   //Get the last character in the string
 		$('.ab_text_lookup').css('display', 'none');

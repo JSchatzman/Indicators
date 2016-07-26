@@ -141,8 +141,8 @@ body {
 	flex-wrap: nowrap;
 	justify-content: flex-start;
 	align-items: flex-start;  /* align items vertically with their tops at the same height */
-	width: 800px;
-	height: 500px;
+	width: 900px;
+	height: 600px;
 	background-color: #5e5e5e;
 }
 
@@ -152,21 +152,13 @@ body {
 	flex-wrap: nowrap;
 	justify-content: flex-start;
 	align-items: flex-start;  /* align items vertically with their tops at the same height */
-	width: 20%;
 	padding: 20px;
 	background-color: #282828;
 }
 
-.ab_text_box {
-	width: 80%;
-	padding: 20px;
-	background-color: #3a3a3a;
-	color: #fff;
-}
-
 .ab_menu_item {
 	color: #fff;
-	background-color: #9859ba;
+	background-color: #a378bc;
 	border-radius: 3px;
 	width: 180px;
 	height: 30px;
@@ -177,11 +169,26 @@ body {
 	padding: 10px 0;
 }
 
+.ab_menu_item:hover {
+	background-color: #9859ba;
+}
+
+.ab_content {
+	padding: 20px;
+	background-color: #3a3a3a;
+	color: #fff;
+}
+
 .ab_text_lookup {
 	display: none;
 	padding: 10px;
 	color: #fff;
 	font-size: 16px;
+}
+
+.ab_text_lookup p {
+	margin-bottom: 10px;
+	line-height: 26px;
 }
 
 /******************** Contact Box Styles *******************/
