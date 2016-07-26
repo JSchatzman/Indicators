@@ -456,9 +456,9 @@ def about_box():
 			<div class="ab_content">
 				<h1>Title</h1>
 				<div class="ab_text" id="ab_text_1">
-					<p>This project evolved from a desire to learn the Python programming language.  As a database developer, I wanted to
+					<p>This project sprang from a desire to learn the Python programming language.  As a database developer, I wanted to
 					complement my database design and SQL skills with additional data processing and analytical capabilities.  Since Python 
-					seems designed for data, I chose Python.
+					seems designed for this, it seemed the natural choice.
 					</p>
 					<p>Item 1 Paragraph 2.  Here is some more text</p>
 				</div>
