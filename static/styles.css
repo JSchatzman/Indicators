@@ -5,9 +5,11 @@
 }
 
 /******************** General Styles ********************/
-body {
+html, body {
 	font-family: Montserrat, sans-serif;
+	height: 100%;
 }
+
 .page {
 	position: relative;
 }
