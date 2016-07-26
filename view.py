@@ -483,12 +483,22 @@ def about_box():
 				 
 				</div>
 				<div class="ab_text" id="ab_text_3">
-					<p>Item 3 Paragraph 1</p>
-					<p>Item 3 Paragraph 2</p>
+					<p>The data used in this project has been compiled by the <a href="http://www.worldbank.org/">World Bank</a>, a non-profit organization dedicated to ending extreme
+					poverty and increasing shared prosperity across the globe.  Data in this database has been gathered since the 1960s.  Although remarkably comprehensive, the dataset
+					is not complete.  Some data points for certain countries and some years is not available, so the code had to take this into account.
+					</p>
+					<p>Information on the Index goes here</p>
 				</div>
 				<div class="ab_text" id="ab_text_4">
-					<p>Item 4 Paragraph 1</p>
-					<p>Item 4 Paragraph 2</p>
+					<p>A diverse set of technologies was used to create this project.  Server-side code was developed using Python, Numpy, Pandas, Matplotlib, and SQL. Client-side code 
+					 involved "raw" coding in HTML5, CSS3, and jQuery.  The Flask framework was used to interact with the web server, but mostly for URL routing and 
+					delivery of data to clients over HTTP.  No Flask templates were used, since the point was to develop a bit of proficiency in full-stack programming. 
+					 </p>
+					<p>All the layout and styles of the website are completely custom.  I took advantage of lots of invaluable guidance from a colleague who understands responsive front-end design.  
+					This helped make the website look good and behave itself across a variety of browsers and devices.  I could not have done this project without his help.</p>
+					<p>The host is a low-capacity Ubuntu Linux server running in the Microsoft Azure cloud.  Source code control was done exclusively using Git with a hub-and-spoke architecture and 
+					a variation on the feature-branch workflow.  Three repositories were used for development and deployment: my laptop's local respository, a bare repository acting as the publishing hub,
+					and a production repository in the web server (/var/www/...) where all the public files were made available. 
 				</div>
 			</div>
 		</div>
