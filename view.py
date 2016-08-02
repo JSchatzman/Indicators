@@ -487,7 +487,10 @@ def about_box():
 					poverty and increasing shared prosperity across the globe.  Data in this database has been gathered since the 1960s.  Although remarkably comprehensive, the dataset
 					is not complete.  Some data points for certain countries and some years is not available, so the code had to take this into account.
 					</p>
-					<p>Information on the Index goes here</p>
+					<p>There are over 1,000 distinct indicators available in this dataset, many of which are very important descriptors of the quality of life of a country's citizens as well as its 
+					overall development.  There's no limit to the different methods one could use to measure development, but we have chosen three that we find most important: GDP/capita, PPP ($US), access to an improved water source
+					(% of total population) and alternative energy sources used (% of total).  The coefficients for each are the about equal to the inverse of the maximum of each indicator observed in the entire dataset.  
+					This means that if a country has the greatest value for each of three indicators across all time and countries in a given year, then it will receive a "perfect" score of 1.   </p>
 				</div>
 				<div class="ab_text" id="ab_text_4">
 					<p>A diverse set of technologies was used to create this project.  Server-side code was developed using Python, Numpy, Pandas, Matplotlib, and SQL. Client-side code 
